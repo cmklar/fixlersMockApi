@@ -1,13 +1,108 @@
 {
+  "orderTechnicians": [
+    {
+      "id": "FJN12315-yw456345wter32",
+      "data": {
+        "status": "assignedTo",
+        "isRejectedByAdmin": false,
+        "technicianRespondedToOfferOn": "2023-01-17T14:46:06.393Z",
+        "solicitCount": 2,
+        "lastSolicitedOn": "2023-01-17T14:46:06.393Z",
+        "assessmentQuote": {
+          "content": "What is Lorem Ipsum, a very long note....",
+          "rateJustification": "What is Lorem Ipsum, a very long note....",
+          "pricing": {
+            "serviceCost": 78,
+            "materialCost": 78
+          },
+          "media": {
+            "images": [
+              {
+                "url": "https://fixlers-...2269872-original.webp",
+                "thumbnail": "https://fixlers-...2269872-thumbnail.webp",
+                "description": "man with shaven head"
+              }
+            ],
+            "videos": [
+              {
+                "url": "https://fixlers-...2269872-original.webp",
+                "thumbnail": "https://fixlers-...2269872-thumbnail.webp",
+                "description": "man with shaven head"
+              }
+            ],
+            "voicenotes": [
+              {
+                "voicenote": "https://fixlers-...2269872-original.webp",
+                "thumbnail": null,
+                "description": "man with shaven head"
+              }
+            ]
+          },
+          "consumerResponse": {
+            "isAccepted": false,
+            "rejectionReason": "too expensive"
+          }
+        }
+      },
+      "relationships": {
+        "belongsToOrder": {
+          "id": "FJN12315",
+          "relTo": {
+            "id": "FJN12315",
+            "type": "orders",
+            "attributes": {
+              "jobType": "Appliance Repair and Installation",
+              "address": "Deer Park, NY 11729",
+              "price": "Free Estimate",
+              "serviceStart": "2023-06-05T03:30:00Z",
+              "serviceEnd": "2023-06-05T07:30:00Z",
+              "status": "pending"
+            }
+          }
+        },
+        "belongsToTechnician": {
+          "id": "yw456345wter32",
+          "relTo": {
+            "id": "yw456345wter32",
+            "type": "technicians",
+            "attributes": {
+              "fullName": "Israel Breuer"
+            }
+          }
+        },
+        "properties": ""
+      }
+    }
+  ],
   "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" },
-    { "id": 5, "title": "Post Cinco" }
+    {
+      "id": 1,
+      "title": "Post 1"
+    },
+    {
+      "id": 2,
+      "title": "Post 2"
+    },
+    {
+      "id": 3,
+      "title": "Post 3"
+    },
+    {
+      "id": 5,
+      "title": "Post Cinco"
+    }
   ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
   ],
   "profile": {
     "name": "typicode"
